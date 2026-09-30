@@ -70,9 +70,12 @@ const MyPage: NextPage = () => {
 				<div className="container">
 					<Stack className={'my-page'}>
 						<Stack className={'back-frame'}>
+							{/* CHAP TOMON */}
 							<Stack className={'left-config'}>
 								<MyMenu />
 							</Stack>
+
+							{/* O'NG TOMON */}
 							<Stack className="main-config" mb={'76px'}>
 								<Stack className={'list-config'}>
 									{category === 'addProperty' && <AddProperty />}
