@@ -7,6 +7,7 @@ import { Member } from '../../types/member/member';
 import { REACT_APP_API_URL } from '../../config';
 import { useQuery } from '@apollo/client';
 import { GET_MEMBER } from '../../../apollo/user/query';
+import { T } from '../../types/common';
 
 interface MemberMenuProps {
 	subscribeHandler: any;
